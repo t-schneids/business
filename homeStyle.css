@@ -17,20 +17,17 @@ p {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
 }
 
 .navlist {
     overflow: hidden;
     list-style-type: none;
     margin: 0;
-    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 0;
     font-size: large;
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .navlist li a {
