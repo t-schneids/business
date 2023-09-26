@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="homeStyle.css">
+
         <title>Forms</title>
         <style type="text/css">
-            html,body { font-size: 22px}
+            html,body { font-size: 22px;}
             label {color: black}
         </style>
     </head>
     <body>
-        <nav class="nav">
-            <ul>
+         <nav class="nav">
+            <ul class="navlist">
             <div class="logo">
                 <li> 
-                    <a href="index.html"> <img src="logo2.png" alt="company
-                     logo" width="10%" style="background-color: white;"></a> 
-                    <a href="index.html" > Planet Purifiers</a>
+                    <a href="index.html"> <img src="logo2.png" alt="company logo">
+                    </a> 
+                </li>
+                <li>
+                    <a href="index.html"> PLANET PURIFIERS</a>
                 </li>
             </div> 
                 <div class="tabs">
@@ -31,6 +36,7 @@
             </ul>
         </nav>
 
+    <div class="screenContent">
         <p>Help Us Out! Your donations keep us going!</p>
         <form method="get" action="#"> 
             <label> Enter your name: </labeL>
@@ -61,11 +67,22 @@
 
            <br/> <label>SUBMIT</label> <input type="submit">
         </form>
+    </div>
 
+        <br/><br/>
+        <footer class="row" id="bigScreens">
+            <div class="column">
+                <p>&copy; Planet Purifiers Since 2023</p>
+            </div>
+            <div class="column">
+                <p>Email Us - planetpurifiers@gmail.com</p>
+            </div>
+        </footer>
 
-        <footer>
-            <p>Planet Purifiers Since 2023</p>
-            <p>Email Us - planetpurifiers@gmail.com</p>
+        <footer class="row" id="smallScreens">
+            <div class="column">
+                <p>Planet Purifiers Since 2023</p>
+            </div>
         </footer>
 
 

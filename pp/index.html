@@ -6,22 +6,17 @@
         <link rel="stylesheet" href="homeStyle.css">
 
         <style>
-            .row {
-                text-align: center;
+            .row p{
+                font-size: large;
             }
-
             .row h1 {
                 font-size: 50px;
                 color: white;
             }
             .row img {
-            /* position: absolute;
-            top: 0px;
-            right: 0px;
-            padding: 3% .5%; */
             max-width: 100%;
             height: auto;
-            border-radius: 30%;
+            border-radius: 50%;
         }
         </style>
     </head>
@@ -53,6 +48,7 @@
 
         <br/>
 
+    <div class="screenContent">
         <!-- ROW 1 -->
         <div class="row" id="row1">
             <div class="column">
@@ -73,13 +69,14 @@
             </div>
         </div>
 
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/>
 
         <!-- ROW THREE -->
         <div class="row" id="row3">
             <div class="column">
-                <p>Our mission is to lead a global movement dedicated to the 
-                restoration and preservation of our precious planet. We are 
+                <h1>Our Mission -- </h1>
+                <p>We are dedicated in leading a global movement aimed to  
+                restore and preserve our precious planet. We are 
                 committed to tirelessly working toward a cleaner, healthier, 
                 and more sustainable Earth for present and future generations. 
                 Through community engagement, collaborative partnerships, and 
@@ -90,6 +87,17 @@
                 </p>
             </div>
             <div class="column">
+                <img src="planting.jpg" alt="planting">
+            </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="row" id="row4">
+            <div class="column">
+                <img src="background.jpg" alt="nice scenery">
+            </div>
+            <div class="column">
+                <h1>Join Us -- </h1>
                 <p>We invite you to join hands with Planet Purifiers in our 
                     mission to cleanse and protect our beloved Earth. Our work 
                     depends on the collective effort of individuals like you 
@@ -104,13 +112,22 @@
                 </p>
             </div>
         </div>
-        
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
 
 
-        <footer>
-            <p>Planet Purifiers Since 2023</p>
-            <p>Email Us - planetpurifiers@gmail.com</p>
+        <footer class="row" id="bigScreens">
+            <div class="column">
+                <p>&copy; Planet Purifiers Since 2023</p>
+            </div>
+            <div class="column">
+                <p>Email Us - planetpurifiers@gmail.com</p>
+            </div>
+        </footer>
+
+        <footer class="row" id="smallScreens">
+            <div class="column">
+                <p>Planet Purifiers Since 2023</p>
+            </div>
         </footer>
 
 

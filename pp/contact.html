@@ -2,57 +2,95 @@
 <html>
     <head>
         <title>Planet Purifiers</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="homeStyle.css">
+
+        <style>
+            
+            #contentForm {
+                text-align: left;
+            }
+
+            #contactInfo {
+                background-color:darkslategray;
+                border-radius: 50%;
+            }
+        </style>
+
     </head>
     <body>
-        <ul>
-            <li> 
-                <a href="index.html"> <img src="logo2.png" alt="company
-                 logo" width="10%" style="background-color: white;"></a> 
-                <a href="index.html" > Planet Purifiers</a>
-            </li>
-        </div> 
-            <li> 
-                <a href="events.html" > EVENTS</a> 
-            </li>
-            <li>
-                <a href="contact.html"> CONTACT US</a>
-            </li>
-            <li>
-                <a href="form.html"> DONATE NOW</a>
-            </li>
-        </ul>
+        <nav class="nav">
+            <ul class="navlist">
+            <div class="logo">
+                <li> 
+                    <a href="index.html"> <img src="logo2.png" alt="company logo">
+                    </a> 
+                </li>
+                <li>
+                    <a href="index.html"> PLANET PURIFIERS</a>
+                </li>
+            </div> 
+                <div class="tabs">
+                    <li> 
+                        <a href="events.html" > EVENTS</a> 
+                    </li>
+                    <li>
+                        <a href="contact.html"> CONTACT US</a>
+                    </li>
+                    <li>
+                    <a href="form.html"> DONATE NOW</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    
+    <div class="screenContent">
+        <div class="row">
+            <div class="column" id="contactInfo">
+                <aside>
+                    <h1>
+                        Planet Purifiers
+                    </h1>
+                    <h1>
+                        30 Lower Campus Road, Medford, MA 02155
+                    </h1>
+                    <h1>
+                        planetpurifiers@gmail.com
+                    </h1>
+                </aside>
+            </div>
+            <div class="column" id="contactForm">
+                <h1>Contact Us! Where should we clean next!</h1>
+                <form method="get" action="#"> 
+                    <label> Enter your name: </labeL>
+                        <input type="text" name="txtName"/> 
+                    <br/>
 
-        <aside>
-            <p>
-                Planet Purifiers
-            </p>
-            <p>
-                30 Lower Campus Road, Medford, MA 02155
-            </p>
-            <p>
-                planetpurifiers@gmail.com
-            </p>
-        </aside>
+                    <label>Email:</label> <input type="email"/>
+                    <br/>
+                    <textarea placeholder="Leave a Message"></textarea> 
+                    <hr/>
 
-        <p>Contact Us! Where should we clean next!</p>
-        <form method="get" action="#"> 
-            <label> Enter your name: </labeL>
-                <input type="text" name="txtName"/> 
-            <br/>
+                    <br/> <label>SUBMIT</label> <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    
 
-            <label>Email:</label> <input type="email"/>
-            <br/>
-            <textarea placeholder="Leave a Message"></textarea> 
+        <footer class="row" id="bigScreens">
+            <div class="column">
+                <p>&copy; Planet Purifiers Since 2023</p>
+            </div>
+            <div class="column">
+                <p>Email Us - planetpurifiers@gmail.com</p>
+            </div>
+        </footer>
 
-           <hr/>
-
-           <br/> <label>SUBMIT</label> <input type="submit">
-        </form>
-
-
-        <footer>
-            <p>Planet Purifiers Since 2023</p>
-            <p>Email Us - planetpurifiers@gmail.com</p>
+        <footer class="row" id="smallScreens">
+            <div class="column">
+                <p>Planet Purifiers Since 2023</p>
+            </div>
         </footer>
 
     </body>
