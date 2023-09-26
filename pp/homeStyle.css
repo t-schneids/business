@@ -72,6 +72,10 @@ body {
     align-items: center;
 }
 
+.row h1{
+    color: darkgreen;
+}
+
 .column {
     flex: 50%;
 }
