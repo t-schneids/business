@@ -1,16 +1,8 @@
 body {
     margin: 0;
-    /* Shorthand background-- color, image, repeat, attachment, position */
-    /* background: url("background.jpg") no-repeat fixed right top,
-                url("trees.jpg") no-repeat fixed left bottom; */
-    background-color: tan;
+    background-color:blanchedalmond;
     font-family: sans-serif;
 }
-
-p {
-    color: white;
-}
-
 
 /* General navigation control */
 .nav {
@@ -31,6 +23,7 @@ p {
 }
 
 .navlist li a {
+    transition-duration: 0.4s;
     display: block;
     color: white;
     text-align: center;
@@ -71,7 +64,7 @@ p {
 
 /* General Grid Style */
 .row {
-    color: white;
+    color: brown;
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
@@ -94,7 +87,7 @@ footer {
     bottom: 0;
     z-index: 100;
     width: 100%;
-    color: white;
+    color: white !important;
     background-color: rgba(0, 0, 0, 0.15);
     text-align: center;
     -webkit-backdrop-filter: blur(10px);
