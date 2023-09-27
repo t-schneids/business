@@ -106,11 +106,15 @@ footer p {
 
 /* Responsive Styles */
 @media screen and (max-width: 700px) {
+    .logo li:first-child a img{
+        display: none;
+    }
+
     .navlist {
         font-size: medium;
     }
     .navlist li a {
-        padding: 2px 2px;
+        padding: 4px 4px;
     }
 
     .logo li a {
